@@ -1,0 +1,51 @@
+  #tag
+     {font-size:80px;
+      font-family:verdana;
+      width:350px;
+      cursor:default;
+      margin-left:auto;
+      margin-right:auto;
+      position:relative;top:-420px;left:25px;}
+  #tag a
+	  {text-decoration:none;
+	   color:#004646;}
+	#tag a:hover
+	  {color:#003838;}
+	#more 
+	{position:absolute;top:300px;left:540px;
+	 width:300px;
+	 height:80px;
+	 background:#004646;
+     border-radius:6px;
+     -webkit-box-shadow:0 0 6px #ddd;}
+	#more form button
+	{position:relative;top:10px;left:75px;
+	 width:155px;
+	 height:35px;
+	 cursor:pointer;
+	 color:#001c1c;
+	 font-size:25px;
+	 border-radius:6px;
+	 background-image:-webkit-linear-gradient(top, #003838, #006161);}
+	#more form button:hover
+	{background-image:-webkit-linear-gradient(bottom, #003838, #006161);}
+	#more form input
+	{position:relative;left:73px;top:5px;
+	 height:30px;}
+	#legend
+	{position:absolute;top:270px;left:710px;
+	 background:white;
+	 cursor:default;
+	 border-radius:6px;
+	 width:130px;
+	 text-align:center;
+	 height:24px;
+	 color:#001c1c;
+	 font-size:20px;
+	 -webkit-box-shadow:0 0 4px #333;
+	 line-height:2px;
+	 padding-bottom:2px;
+	 margin-top:2px;
+	 background-image:-webkit-linear-gradient(top, lightblue, #2f4f4f);}
+	#legend p
+	{position:relative;top:-6px;}
