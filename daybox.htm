@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <title>DayboX</title>
@@ -19,8 +18,16 @@
    
     <div id="form">
     <form action="cc.php" method="post">
-     Search<br><label for="DOB">DOB<input type="radio" name="i" value="dob" required/></label><label for="NAME">NAME<input type="radio" name="i" value="name" required/></label>
-    <input type="text" name="j" placeholder="MM-DD [DOB format]" required/>
+     Search<br>
+     <div id="a">
+      DOB<input type="radio" name="i" value="dob" required/>
+     </div>
+     <div id="b">
+      NAME<input type="radio" name="i" value="name" required/>
+     </div>
+     <div id="c">
+      <input type="text" name="j" placeholder="MM-DD [DOB format]" required/>
+     </div>
       <button type="submit">Find</button>
     </form>
 	<!--//pannel\\-->
@@ -100,6 +107,11 @@ then mail us at contactdaybox@gmail.com
 	   <li><a href="javascript:show('action');"><abbr title="every reaction should also have an Action">Action</abbr></a></li>
      </ul>
    </div>
+   
+   <!--oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo-->
+   <script type="text/javascript" src="jquery-1.9.0min.js"></script>
+   <script type="text/javascript" src="hint.js"></script>
+   <!--oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo-->
    
   </body>
   
