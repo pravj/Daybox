@@ -1,0 +1,24 @@
+#tag
+     {font-size:80px;
+      font-family:verdana;
+      width:350px;
+      color:#004646;
+      cursor:default;
+      margin-left:auto;
+      margin-right:auto;
+      position:relative;top:-420px;left:25px;}
+#tag a
+	  {color:#004646;
+	   text-decoration:none;}
+      #tag a:hover
+      {color:#003838;}
+#date
+	  { -webkit-box-shadow:0 0 6px #ddd;
+	    border-radius:4px;
+	   background:#003838;
+	   margin-left:auto;
+	   margin-right:auto;
+	   position:absolute;left:557px;top:280px;}
+tr
+	  {font-size:25px;
+	    color:#d4d4d4;}
