@@ -7,14 +7,14 @@
       margin-right:auto;
       position:relative;top:-420px;left:25px;}
   #tag a
-	  {text-decoration:none;
-	   color:#004646;}
-	#tag a:hover
-	  {color:#003838;}
-	#inside
-	{position:absolute;top:170px;left:565px;
-	 background:#004646;
-	 border-radius:6px;
-	 -webkit-box-shadow:0 0 6px #ddd;}
-	td
-	{color:#ddd;}
+      {text-decoration:none;
+       color:#004646;}
+  #tag a:hover
+      {color:#003838;}
+  #inside
+      {position:absolute;top:170px;left:565px;
+       background:#004646; 
+       border-radius:6px;
+       -webkit-box-shadow:0 0 6px #ddd;}
+  td
+      {color:#ddd;}
