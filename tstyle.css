@@ -9,16 +9,16 @@
   #tag a
 	  {text-decoration:none;
 	   color:#004646;}
-	#tag a:hover
+  #tag a:hover
 	  {color:#003838;}
-	#more 
+  #more 
 	{position:absolute;top:300px;left:540px;
 	 width:300px;
 	 height:80px;
 	 background:#004646;
      border-radius:6px;
      -webkit-box-shadow:0 0 6px #ddd;}
-	#more form button
+  #more form button
 	{position:relative;top:10px;left:75px;
 	 width:155px;
 	 height:35px;
@@ -27,12 +27,12 @@
 	 font-size:25px;
 	 border-radius:6px;
 	 background-image:-webkit-linear-gradient(top, #003838, #006161);}
-	#more form button:hover
+  #more form button:hover
 	{background-image:-webkit-linear-gradient(bottom, #003838, #006161);}
-	#more form input
+  #more form input
 	{position:relative;left:73px;top:5px;
 	 height:30px;}
-	#legend
+  #legend
 	{position:absolute;top:270px;left:710px;
 	 background:white;
 	 cursor:default;
@@ -47,5 +47,5 @@
 	 padding-bottom:2px;
 	 margin-top:2px;
 	 background-image:-webkit-linear-gradient(top, lightblue, #2f4f4f);}
-	#legend p
+  #legend p
 	{position:relative;top:-6px;}
