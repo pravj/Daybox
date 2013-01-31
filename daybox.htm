@@ -1,0 +1,121 @@
+
+<html>
+  <head>
+    <title>DayboX</title>
+    <meta name="author" content="pravj" />
+    <link rel="stylesheet" href="dstyle.css" type="text/css"/>
+  </head>
+  <body bgcolor="#005353"><!--008b8b/996666/339966/005353/006f6f/-->
+    <div id="pic">
+  
+   <img src="pictures/1.png" style="position:relative;top:-80px;"/>
+   <img src="pictures/2.png" style="position:relative;left:670px;"/>
+   <img src="pictures/3.png" style="position:absolute;top:395px;left:835px;"/>
+     <img src="pictures/4c.png" style="position:absolute;top:135px;left:-10px;"/>
+  <div id="tag">
+    <p><a href="index.htm">DayboX</a></p>
+  </div>
+  </div>
+   
+    <div id="form">
+    <form action="cc.php" method="post">
+     Search<br><label for="DOB">DOB<input type="radio" name="i" value="dob" required/></label><label for="NAME">NAME<input type="radio" name="i" value="name" required/></label>
+    <input type="text" name="j" placeholder="MM-DD [DOB format]" required/>
+      <button type="submit">Find</button>
+    </form>
+	<!--//pannel\\-->
+   <div id="pannel">
+    <button class="btn" onclick="redirectTL()" style="position:relative;left:2px;">TimeLeft</button>
+	<button class="btn" onclick="redirectUP()" style="position:relative;left:2px;">Upcoming</button>
+   </div>
+    </div>
+	
+	<div id="admin">
+	 <div id="amit">
+	  
+	   <img src="http://sphotos-d.ak.fbcdn.net/hphotos-ak-snc7/487036_375695212516969_715008449_n.jpg" width="110px" height="120px"/> 
+	   <h2>Amit Yadav</h2>
+	   <h1># Founder          </h1>
+	   
+	 </div>
+	 <div id="pravj">
+	  
+	   <img src="https://lh3.googleusercontent.com/-BRcJ4iIm-ck/AAAAAAAAAAI/AAAAAAAAAPc/hSDTu53fbQI/s250-c-k/photo.jpg" width="110px" height="120px"/>
+	   <h1>Programming & Design #</h1>
+	   <h2>Pravendra Singh</h2>
+	 </div>
+	</div>
+    <!--here is feedback-->
+	<div id="action">
+	  <!--<form action="mailto:something" method="post">
+	    Name <input type="text" name="name" required/>
+		E-mail<input type="email" name="email" required/>
+		
+	  </form>
+	  <pre>If you want to 
+remove information about you...
+then mail us at contactdaybox@gmail.com
+	  </pre>-->
+	  <div id="inction">
+	    <p>Feedback Portal</p>
+	    <p style="color:darkgreen;font-size:17px;position:relative;top:-50px;left:120px;">#include</p>
+		<p style="color:#000;font-size:16px;position:reltive;top:-87px;left:186px;">&lt;Email.Service&gt;</p>
+		<p style="color:#000;font-size:16px;position:relative;top:-110px;left:119px;">using keypad;</p>
+		<h4 style="position:relative;top:-135px;left:120px;color:#000;">feel</h4>
+		<p style="color:darkblue;font-size:16px;position:relative;top:-177px;left:150px;">Like();</p>
+		<h4 style="position:relative;top:-203px;left:120px;color:#000;">feel</h4>
+		<p style="color:darkblue;font-size:16px;position:relative;top:-244px;left:147px;">Dislike();</p>
+		<p style="color:#000;font-size:16px;position:relative;top:-267px;left:120px;">type</p>
+		<p style="color:red;font-size:16px;position:relative;top:-303px;left:153px;">mail()</p>
+		<p style="color:#000;font-size:16px;position:relative;top:-320px;left:120px;">{</p>
+		<p style="color:maroon;font-size:16px;position:absolute;top:108px;left:130px;">$address = contactdaybox@gmail.com;</p>
+		<p style="color:darkblue;font-size:16px;position:absolute;top:123px;left:130px;">if (you Like(this))</p>
+		<pre style="font-size:16px;position:absolute;top:140px;left:150px;">
+ {$sub = x;
+  WHERE (feel(x) >= 0)
+  mailto:$address with subject=$sub;}</pre>
+        <p style="font-size:16px;color:darkblue;position:absolute;left:130px;top:191px;">else if(you Dislike(this))</p>
+        <pre style="font-size:16px;position:absolute;top:210px;left:150px;"> {$sub = x;
+  WHERE (feel(x) < 0)
+  mailto:$adress with subject=$sub;}</pre>
+        <p style="font-size:16px;color:#000;position:absolute;left:511px;top:244px;">}</p>
+		<p style="color:#1E2D47;font-size:16px;position:absolute;top:260px;left:130px;">/* feel( ) is most similar to our feeling */</p>
+		<pre style="font-size:16px;color:#000;position:absolute;top:295px;left:117px;">
+		<p style="color:#000;font-size:16px;position:absolute;top:-30px;left:7px;">feel Like(a)</p>
+ <pre style="position:relative;top:-50px;left:1px;">{if 'a' seems to good;
+  return "your idea or comment on content";}
+</pre>
+        <p style="color:#000;font-size:16px;position:absolute;top:22px;left:6px;">feel Dislike(a)</p>
+		<pre style="font-size:16px;position:absolute;top:37px;">{if 'a' is wrong somewhere;
+ return "tell exactly what your problem is";}</pre>
+	  </div>
+	</div>
+  
+ 
+   <div id="footer">
+     <ul>
+      
+       <li><a href="javascript:show('form');">Home</a></li>
+	   <li><a href="javascript:show('admin');"><abbr title="Behind the scene">Admin</abbr></a></li>
+	   <li><a href="javascript:show('action');"><abbr title="every reaction should also have an Action">Action</abbr></a></li>
+     </ul>
+   </div>
+   
+  </body>
+  
+   <script >
+	
+function show ( section ) {
+	var sections = ['form', 'admin', 'action'];
+	for (var i=0; i < sections.length; i++) 
+		document.getElementById(sections[i]).style.display = (sections[i] == section ? "block" : "none");	}	
+    
+function redirectTL()
+	 {window.location.assign("tml.htm")}
+	 
+function redirectUP()
+     {window.location.assign("upc.php")}
+   
+   </script> 
+
+</html>
