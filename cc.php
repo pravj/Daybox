@@ -1,4 +1,3 @@
-
 <html>
  <head>
   <meta name="author" content="pravj"/>
@@ -22,6 +21,7 @@
      <?php
    $host = 'localhost';
    $user = 'root';
+   // password and database name are not written
    $pass = '*******';
    $db = '***';
   
