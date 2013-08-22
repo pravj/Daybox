@@ -20,6 +20,7 @@
 	  <?php
    $host = 'localhost';
    $user = 'root';
+   // password and databse name are not written
    $pass = '*******';
    $db = '***';
   
